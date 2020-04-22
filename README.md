@@ -1,4 +1,4 @@
-# Week two - Oystercard pairing project - Hibo Abdilaahi
+# Week two - Oystercard pairing project
 
 ## Brief description of what the project is
 

@@ -2,8 +2,8 @@ require 'oystercard'
 
 describe Oystercard do
   subject(:oystercard) { described_class.new}
-   let(:station) { double :station }
-
+#   let(:station) { double :station }
+       station = "Oxford Circus"
   it 'Balance method returns 0 when initialized' do
     expect(oystercard.balance).to eq 0
   end
@@ -15,6 +15,7 @@ describe Oystercard do
   describe ' #touch_in' do
     it 'in_journey becomes true when oystercard touched in' do
        oystercard.top_up(20)
+
        oystercard.touch_in(station)
        expect(oystercard.in_journey).to eq true
     end

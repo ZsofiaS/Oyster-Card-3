@@ -2,8 +2,6 @@
 
 ## Brief description of what the project is
 
-
-
 ```
 In order to use public transport
 As a customer
@@ -78,7 +76,7 @@ To run tests, complete the following steps
 If you would like to contribute to this project, you can follow the instructions below
 
 1. Clone this repository to your local computer
-2. Create a new branch: $ git checkout https://github.com/hiboabd/oystercard -b name_for_new_branch.
+2. Create a new branch: $ git checkout https://github.com/ZsofiaS/Oyster-Card-3 -b name_for_new_branch.
 3. Make changes and test
 4. Submit Pull Request with comprehensive description of changes
 
